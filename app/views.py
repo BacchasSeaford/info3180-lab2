@@ -7,6 +7,7 @@ This file creates your application.
 
 from app import app
 from flask import render_template, request, redirect, url_for
+import time 
 
 
 ###
@@ -24,6 +25,16 @@ def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
 
+###
+#1. Create a new method and route in your app/views.py file. Call your route "/profile" and your method "profile()" 
+###
+@app.route('/profile/')
+def profile():
+    """ this will be about the profile thingy"""
+    return render_template('profile.html', today=timeinfo())
+def timeinfo():
+    now = time.strftime("%c")
+    return "Today's date is " + time.strftime("%a %d %b %Y")
 
 ###
 # The functions below should be applicable to all Flask apps.

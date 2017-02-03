@@ -1,3 +1,65 @@
 body {
     padding-top: 50px;
 }
+#div1
+{
+    border-bottom: 2px solid grey;
+     width: 1000px;
+}
+
+img
+{
+  float:left;
+  position: relative;
+  height: 178px;
+  width: 175px;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  border-top: 2px solid grey;
+  border-left: 2px solid grey;
+}
+
+#div3
+{
+    float:right;
+    padding-right: 425px; 
+}
+
+#divsize
+{
+    border-bottom: 2px solid grey;
+    border-right: 2px solid grey;
+    border-top: 1px solid grey;
+    border-left: 2px solid grey;
+    height: 250px;
+    width: 500px;
+    padding-left: 10px;
+}
+
+#divheading
+{
+    background-color: #C7BCBC;
+    height: 35px;
+    width: 500px;
+    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 2px solid grey;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
+    padding-left: 10px;
+}
+
+#ok
+{
+   padding-right: 10px;
+   border-bottom: 2px solid grey;
+   height: 50px;
+   width: 475px;
+}
+#ok1
+{
+   padding-right: 10px;
+   border-bottom: 2px solid grey;
+   height: 120px;
+   width: 475px;
+}
